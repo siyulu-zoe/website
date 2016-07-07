@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zoe's Writing Blog</title>
+<link href = "sty.css" rel="stylesheet" type="text/css" />
+<link href = "styhome.css" rel="stylesheet" type="text/css" />
+<script>
+function change(page)
+{
+//  document.write('Hello World');
+    document.getElementById('mainframe').className="faded";
+    setTimeout(function()
+    {
+        document.getElementById('mainframe').src=page+'.html';
+        document.getElementById('mainframe').className="normal";
+    }, (2 * 1000));
+}
+</script>
+</head>
+<body>
+
+<header id="header">
+<h1>The Years</h1>
+        
+        <nav id="nav">
+            <ul id="list-nav">
+                <li class="current"><a onclick="change('home')" href="#">Home</a></li>
+                <li><a onclick="change('about')" href="#">About</a></li>
+                <li><a onclick="change('poetry')" href="#">Poetry</a></li>
+                <li><a onclick="change('prose-fiction')" href="#">Prose/Fiction</a></li>
+                <li><a onclick="change('essays')" href="#">Essays</a></li>
+                <li><a onclick="change('contact')" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+     </header>
+     <iframe id="mainframe" class="normal" src="home.html" ></iframe>
+
+</body>
+</html>

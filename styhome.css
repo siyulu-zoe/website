@@ -1,0 +1,73 @@
+@font-face{font-family:script; src: url(Precious.ttf);}
+
+
+#quotes p {
+  font-family: script;
+  font-size:25px !important;
+	padding-top:27px;
+	float:left;
+	clear:left;
+  color: #8b8619; 
+  font-size: 20px;
+  margin: 5px 0px 0px 5px;
+  padding-left:100px; 
+  white-space: nowrap;
+  overflow: hidden;
+  width: 350px;
+  animation: type 4s steps(60, end); 
+  /*animation-iteration-count: infinite;
+  animation-direction: alternate;*/
+}
+
+#quotes p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+#quotes p:nth-child(3){
+  animation: type3 12s steps(60, end);
+}
+#quotes p:nth-child(4){
+  animation: type4 16s steps(60, end);
+}
+#quotes p:nth-child(5){
+  animation: type4 20s steps(60, end);
+}
+@keyframes type{ 
+  from { width: 0px; } 
+  to { width: 350px; } 
+} 
+@keyframes type2{
+  0%{width: 0px;}
+  50%{width: 0px;}
+  100%{ width: 350px; } 
+} 
+@keyframes type3{
+  0%{width: 0px;}
+  60%{width: 0px;}
+  100%{ width: 350px; } 
+}
+@keyframes type4{
+  0%{width: 0px;}
+  70%{width: 0px;}
+  100%{ width: 350px; } 
+}  
+@keyframes type5{
+  0%{width: 0px;}
+  80%{width: 0px;}
+  100%{ width: 350px; } 
+}  
+
+#section a:link{
+    color:#8b8b8b;
+    text-decoration: none;
+    border-bottom: 2px solid #e83556;
+}
+#section a:visited{
+    color:#8b8b8b;
+    text-decoration: none;
+    border-bottom: 2px solid #e83556;
+}
+#section a:hover{
+    color:#61d0d4;
+    text-decoration: none;
+    border-bottom: 2px solid #e83556;
+}

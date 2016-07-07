@@ -1,0 +1,46 @@
+#section {
+	/*position: absolute;*/
+	width: 80%;
+	position: relative;
+	margin: 1% auto;
+	padding-top:0px;
+	/*padding-left:100px; */
+	line-height:160%;
+    clear:both;
+    padding-right:100px; 
+    text-align:center; 
+}
+#section a:link{
+	color:#8b8b8b;
+	/*text-decoration:underline; 
+	-moz-text-decoration-color: #d1c926; /* Code for Firefox 
+    -webkit-text-decoration-color: #d1c926;*/
+    text-decoration: none;
+	border-bottom: 2px solid #d1c926;
+}
+#section a:visited{
+	color:#8b8b8b;
+	text-decoration: none;
+	border-bottom: 2px solid #d1c926;
+}
+#section a:hover{
+	color:#61d0d4;
+	text-decoration: none;
+	border-bottom: 2px solid #d1c926;
+}
+
+.nu {
+
+    border-bottom: 2px solid #eae5e5 !important;
+	
+}
+
+
+em {
+	font-size:20px;
+	line-height:55px;
+	letter-spacing: 1px;
+	font-weight:400;
+
+}
+

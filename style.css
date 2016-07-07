@@ -1,0 +1,17 @@
+h1 {font-size:26px; color:#0000GG; font-weight:normal}
+p {font-family:Arial,Helvetica,sans serif; font-size:12px;color:#000033}
+
+.important {font-size:30px;}
+
+p .important{color:#FF0000}
+div .important{color:#000033}
+
+p.important
+
+#main_paragraph {color:#CCFF00}
+
+body{font-family:Georgia,"Times New Roman",Times,serif;border:2px solid #000000;}
+
+a {color:#000033}
+p a {font-weight:bold; color:#CC0000 !important;}
+.footer a {text-decoration:none; color:#FFFF00}

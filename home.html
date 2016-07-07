@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zoe's Writing Blog</title>
+<link href = "sty.css" rel="stylesheet" type="text/css" />
+<link href = "styhome.css" rel="stylesheet" type="text/css" />
+<script>
+function change(page)
+{
+//  document.write('Hello World');
+    document.getElementById('mainframe').className="faded";
+    setTimeout(function()
+    {
+        document.getElementById('mainframe').src=page+'.html';
+        document.getElementById('mainframe').className="normal";
+    }, (2 * 1000));
+}
+</script>
+</head>
+<body>
+
+
+<!--<div id="nav">
+<a onclick="change('home')" class="current" href="home.html" > Home</a>
+<a onclick="change('about')" href="about.html"> About</a>
+<a onclick="change('poetry')" href="#"> Poetry</a>
+<a onclick="change('prose-fiction')" href="#"> Prose/Fiction</a>
+<a onclick="change('essays')" href="#"> Essays</a>
+<a onclick="change('contact')" href="#"> Contact</a>
+</div>-->
+
+
+<div id="section">
+<h2>Hello, </h2>
+<h1>welcome to my blog!</h1>
+<p>A tribute to Virginia Woolf (whose words never cease to amaze and inspire me), this writing blog focuses on selected pieces of mine both from the past and the present. </p>
+<p><b>Friends</b>: Have fun poking around! </p>
+<p><b>Strangers</b>: Enjoy reading <a href = "poetry.html">poetry</a>, <a href = "prose-fiction.html">prose/fiction</a>, or <a href = "essays.html">essays</a>? Wonder how a <a href = "about.html">MIT student</a> dabbles in creative writing? You've come to the WRITE place! (yay puns!)</p>
+<p><b>Everyone</b>: Words are meant to be shared and discussed (same with code), so <a href = "contact.html">let's have a conversation!</a></p>
+</div>
+
+<div id="quotes">
+<p>"Always the years between us, </p> 
+<p>always the years. </p>
+<p>Always the love. </p>
+<p>Always the hours."</p>
+<p>&mdash;Virginia Woolf</p>
+</div>
+
+<div id="footer">
+<p><a href = "mailto:siyulu.mit@gmail.com"><img src = "gmail.png" height="50"></a><a href = "https://www.facebook.com/shir19961125" target = "_blank"><img src = "fb.png" height="50"></a><a href = "https://www.linkedin.com/in/siyulumit" target = "_blank"><img src = "linked.png" height="50"></a></p>
+Copyright &copy; 2016 by Zoe Lu
+</div>
+
+</body>
+</html>
